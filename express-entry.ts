@@ -50,7 +50,8 @@ async function startServer() {
     }
   });
 
-  app.listen(process.env.PORT ? parseInt(process.env.PORT) : 3006, () => {
-    console.log("Server listening on http://localhost:3000");
+  const port = 3006
+  app.listen(port, () => {
+    console.log(`Server listening on http://localhost:${port}`);
   });
 }

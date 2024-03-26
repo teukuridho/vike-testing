@@ -1,5 +1,5 @@
 export default function Page() {
     return (
-        <div>wew</div>
+        <div>adminadmin2</div>
     )
 }
